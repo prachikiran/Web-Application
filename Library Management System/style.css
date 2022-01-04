@@ -1,0 +1,171 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*-------------------Designing Section-----------------*/
+
+.wrapper{
+    height: 1000px;
+    width: 1320px;
+}
+
+header{
+    height: 95px;
+    width: 1360px;
+    background-color: black;
+}
+
+section{
+    height: 800px;
+    width: 1360px;
+    padding-top: 100px;
+    background-color: grey;
+    background-image: url("images/Home.jpg");
+    background-size: contain;
+}
+
+.logo {
+    float: left;
+    padding-left: 5px;
+}
+
+.logo img {
+    height: 80px;
+    width: 120px;
+    object-position: top;
+    display: flex;
+    margin-left: 360px;
+}
+
+#icon{
+    top: -150%;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    text-spacing: 30px;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    line-height; 70px;
+} 
+
+
+.heading {
+    height: 180px;
+    width: 460px;
+    background-color: #00088F;
+    opacity: 0.7;
+    margin: 50px auto;
+    margin-left: 100px;
+    color: #00FF20;
+    border-radius: 15px 50px;
+
+}
